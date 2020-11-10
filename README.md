@@ -1,3 +1,3 @@
 # first-test
 
-The Program which change div through the button, this action occurred through javascript. 
+Um programinha que altera a "div" através do clique num botão, essa ação e feita em Javascript.
