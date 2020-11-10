@@ -1,0 +1,13 @@
+div{
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    background-color: cadetblue;
+}
+button{
+    width: 100px;
+    height: 40px;
+    background: none;
+    border: 0.2rem  solid blue;
+    margin: 50px 40px 0px 740px;
+}
