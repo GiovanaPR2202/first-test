@@ -11,13 +11,12 @@ const  colorArray = ['#FF6633', '#FFB399', '#FF33FF', '#FFFF99', '#00B3E6',
 '#FF3380', '#CCCC00', '#66E64D', '#4D80CC', '#9900B3', 
 '#E64D66', '#4DB380', '#FF4D4D', '#99E6E6', '#6666FF'];
 
-//preciso criar um função utilizando arrow function a onde ao clicar muda a frase
+
 const button = document.getElementById("button");
+button.onclick = trocarCor;
 
 function trocarCor(){
     const randomColor = Math.floor(Math.random() * colorArray.length);
-    button.addEventListener("click",function(){
-        divElement.style.backgroundColor = colorArray[randomColor];
-    })
+    return divElement.style.backgroundColor = colorArray[randomColor];
 }
 trocarCor();
