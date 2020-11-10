@@ -1,3 +1,3 @@
 # first-test
 
-The Program which change div through the button, this action occurred through javascript. 
+The Program which changes div through the button, this action occurred through javascript. 
