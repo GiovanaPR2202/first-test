@@ -1,0 +1,1 @@
+const name = document.getElementById("h1-id").innerHTML = "Hello World";
