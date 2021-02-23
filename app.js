@@ -47,7 +47,7 @@ const button = document.getElementById("button");
 button.onclick = trocarCor;
 
 function trocarCor(){
-    const randomColor = Math.floor(Math.random() * colorArray.length);
+    let randomColor = Math.floor(Math.random() * colorArray.length);
     return divElement.style.backgroundColor = colorArray[randomColor];
 }
 trocarCor();
